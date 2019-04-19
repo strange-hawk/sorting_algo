@@ -1,7 +1,6 @@
 #include<iostream>
 #include<cmath>
-#define INF 999999999;
-#define SIZE 10
+#define INF 999999999
 using namespace std;
 void merge (int arr[], int p, int q, int r)
 {
@@ -11,10 +10,10 @@ void merge (int arr[], int p, int q, int r)
   int A[n1+1];
   int B[n2+1];
   for(int i=0;i<n1;i++)  { A[i]=arr[p+i];}
-  A[n1]=12345678;
+  A[n1]=INF;
   for(int i=0;i<n2;i++)
     B[i]=arr[q+1+i];
-  B[n2]=12345678;
+  B[n2]=INF;
   //int C[n1+n2+1];
 
   int i,j,k;
@@ -59,6 +58,6 @@ int main()
   int array[10]={12,98,23,87,34,76,56,54,67,43};
   int p=0;
   int r=9;
-  MergeSort(array,0,SIZE-1);
-  printArr(array,SIZE);
+  MergeSort(array,0,9);
+  printArr(array,10);
 }
