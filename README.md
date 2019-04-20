@@ -35,4 +35,12 @@ ___
   
   * **Worst** **Case** **Complexity**  **T(n)=0(n^2)**
   
-  * An example of in place algorithm
+  * An example of **in** **place** algorithm
+
+  * An example of **internal** sorting
+___
+
+
+
+
+
