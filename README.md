@@ -39,6 +39,13 @@ ___
 
   * An example of **internal** sorting
 ___
+ * >## Bubble Sort
+  * **Complexity** **T(n)=O(n)**
+  * Maximum number of swaps
+___
+ * **Best sorting algorithm in terms of minimum swaps** - **Cycle Sort**
+___
+ * **Most algorithms use merge sort in sorting in STLs but when input is small they use insertion sort**
 
 
 
