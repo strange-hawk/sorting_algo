@@ -7,7 +7,7 @@ int part(int arr[], int p, int r)  //r is the index of last element i.e.r-1   //
   int x = arr[r]; //taking last element as pivot
   int i=p-1;  //taking i=-1 to be loop invariant
   int j;
-  for( j=p ; j<r ; j++)  //loop from p to r-2  since r-1 is pivot
+  for( j=p ; j<r ; j++)  //loop from p to r-1  since r is pivot
   {
     if(arr[j]<=x)
     {
